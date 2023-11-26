@@ -85,11 +85,11 @@
     </div>
   </div>
 </section>
-<!-- 
-<section class="hero teaser">
+
+<!-- <section class="hero teaser">
   <div class="container is-max-desktop">
     <div class="hero-body">
-      <video controls style="width: 100%; height: auto;">
+      <video width="500" height="500" controls autolpay>
         <source src="./videos/hairy_monkey.mp4"
                 type="video/mp4">
       </video>
@@ -99,19 +99,43 @@
     </div>
   </div>
 </section> -->
-
+<div class="container is-max-desktop">
 <div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
   <video width="500" height="500" controls autolpay>
       <source src="./videos/hairy_monkey.mp4" type="video/mp4">
   </video>
 </div>
-
+<h2 class="subtitle has-text-centered">
+<p> <b>Our approach generates a mesh using quadrature field. We associate texture with</b></p>
+ <p> <b> the mesh, which can produce volumetric effects, such as fur.</b></p>
+</h2>
+</div>
 <!-- <body>
   <video controls>
       <source src="./videos/hairy_monkey.mp4" type="video/mp4">
       Your browser does not support the video tag.
   </video>
 </body> -->
+<section class="section">
+  <div class="container is-max-desktop">
+    <!-- Abstract. -->
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            We propose a novel Neural Radiance Field (NeRF) representation for non-opaque scenes that allows fast inference by utilizing textured polygons.
+            Despite the high-quality novel view rendering that NeRF provides, a critical limitation is that it relies on volume rendering that can be computationally expensive and does not utilize the advancements in modern graphics hardware.
+            Existing methods for this problem fall short when it comes to modelling volumetric effects as they rely purely on surface rendering.
+            We thus propose to model the scene with polygons, which can then be used to obtain the quadrature points required to model volumetric effects, and also their opacity and colour from the texture.
+            To obtain such polygonal mesh, we train a specialized field whose zero-crossings would correspond to the quadrature points when volume rendering, and perform marching cubes on this field.
+            We then rasterize the polygons and utilize the fragment shaders to obtain the final colour image.
+            Our method allows rendering on various devices and easy integration with existing graphics frameworks while keeping the benefits of volume rendering alive.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--/ Abstract. -->
 
 <section class="hero is-light is-small">
   <div class="hero-body">
@@ -172,7 +196,7 @@
           </video>
         </div>
       </div>
-      <p style="margin-top: 10px;">Visualization of reconstructed nerf-synthetic scenes and our fur dataset.</p>
+      <p style="margin-top: 10px;"><b>Visualization of reconstructed nerf-synthetic scenes and our fur dataset.</b></p>
     </div>
   </div>
 </section>
@@ -207,7 +231,7 @@
           </video>
         </div>
       </div>
-      <p style="margin-top: 10px;">Visualization of reconstructed real 360 scenes.</p>
+      <p style="margin-top: 10px;"><b>Visualization of reconstructed real 360 scenes.</b></p>
     </div>
   </div>
 </section>
