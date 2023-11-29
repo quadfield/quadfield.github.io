@@ -61,24 +61,25 @@
       <div class="columns is-centered">
         <div class="column has-text-centered">
           <h1 class="title is-1 publication-title">Volumetric Rendering with Baked Quadrature Fields</h1>
-          <!-- <div class="is-size-5 publication-authors">
+          <div class="is-size-5 publication-authors">
             <span class="author-block">
               <a href="https://hippogriff.github.io">Gopal Sharma</a><sup>1</sup>,</span>
             <span class="author-block">
-              <a href="http://drebain.com/">Daniel Rebain</a><sup>1</sup>1</span>
+              <a href="http://drebain.com/">Daniel Rebain</a><sup>1</sup>,</span>
             <span class="author-block">
               <a href="hhttps://www.cs.ubc.ca/~kmyi/">Kwang Moo Yi</a><sup>1</sup>,
             </span>
             <span class="author-block">
-              <a href="https://taiya.github.io">Andrea Tagliasacchi</a><sup>2,3</sup>,
+              <a href="https://taiya.github.io">Andrea Tagliasacchi</a><sup>2,3,4</sup>
             </span>
-          </div> -->
+          </div>
 
-          <!-- <div class="is-size-5 publication-authors">
+          <div class="is-size-5 publication-authors">
             <span class="author-block"><sup>1</sup>University of British Columbia,</span>
-            <span class="author-block"><sup>2</sup>Google Research</span>
-            <span class="author-block"><sup>3</sup>SFU</span>
-          </div> -->
+            <span class="author-block"><sup>2</sup>Google DeepMind</span>
+            <span class="author-block"><sup>3</sup>University of Toronto</span>
+            <span class="author-block"><sup>4</sup>Simon Fraser University</span>
+          </div>
           </div>
         </div>
       </div>
@@ -86,36 +87,19 @@
   </div>
 </section>
 
-<!-- <section class="hero teaser">
-  <div class="container is-max-desktop">
-    <div class="hero-body">
-      <video width="500" height="500" controls autolpay>
-        <source src="./videos/hairy_monkey.mp4"
-                type="video/mp4">
-      </video>
-      <h2 class="subtitle has-text-centered">
-        Our approach generates a mesh using quadrature field that can produce volumetric effects, such as fur, when rendered.
-      </h2>
-    </div>
-  </div>
-</section> -->
 <div class="container is-max-desktop">
-<div style="display: flex; justify-content: center; align-items: center; height: 100vh;">
-  <video width="500" height="500" controls autolpay>
+<div style="display: flex; justify-content: center; align-items: center; height: 60vh;">
+  <!-- <video width="300" height="300" controls autolpay>
       <source src="./videos/hairy_monkey.mp4" type="video/mp4">
-  </video>
+  </video> -->
+  <img src="./static/images/teaser.svg" alt="teaser" height="300">
 </div>
 <h2 class="subtitle has-text-centered">
-<p> <b>Our approach generates a mesh using quadrature field. We associate texture with</b></p>
+<p> <b>TL;DR: Our approach generates a mesh using quadrature field. We associate texture with</b></p>
  <p> <b> the mesh and render the mesh using depth peeling, which can produce volumetric effects such as fur.</b></p>
 </h2>
 </div>
-<!-- <body>
-  <video controls>
-      <source src="./videos/hairy_monkey.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-  </video>
-</body> -->
+
 <section class="section">
   <div class="container is-max-desktop">
     <!-- Abstract. -->
@@ -137,6 +121,23 @@
     </div>
     <!--/ Abstract. -->
 
+<hr style="height:1px;border:none;color:#333;background-color:#333;">
+
+
+<section class="section">
+  <div class="container is-max-desktop">
+    <figure>
+      <img src="./static/images/pipeline.svg" alt="teaser" height="600"> 
+      <figcaption> We start with a pre-trained network to train a quadrature field that learns the placement of quadrature points.
+        The extracted mesh from the quadrature field is fine-tuned using a deformation field (deformation is shown using red colour on the deformed mesh). 
+        Lastly, the neural features are baked into a texture map and the mesh, which can be rendered 
+        with WebGL.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<hr style="height:1px;border:none;color:#333;background-color:#333;">
+
 <section class="hero is-light is-small">
   <div class="hero-body">
     <div class="container">
@@ -144,6 +145,12 @@
         <div class="item item-steve">
           <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
             <source src="./videos/chair.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-steve">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="./videos/hairy_monkey.mp4"
                     type="video/mp4">
           </video>
         </div>
@@ -237,18 +244,18 @@
 </section>
 
 
-<!-- 
+
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
     <pre><code>@article{quadfield,
   author    = {Gopal Sharma, Daniel Rebain, Andrea Tagliasacchi, Kwang Moo Yi},
   title     = {Volumetric Rendering with Baked Quadrature Fields},
-  journal   = {ICCV},
-  year      = {2021},
+  journal   = {Arxiv},
+  year      = {2023},
 }</code></pre>
   </div>
-</section> -->
+</section>
 
 
 </body>
