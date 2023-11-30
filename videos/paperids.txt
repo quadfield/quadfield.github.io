@@ -1,0 +1,354 @@
+2; Geometry-Guided Ray Augmentation for Neural Surface Reconstruction with Sparse Views; Jiawei Yao, Chen Wang, Tong Wu, Canran Xiao, Chuming Li
+3; PersonalTailor: Personalizing 2D Pattern Design from 3D Garment Point Clouds; Sauradip Nag, Anran Qi, Xiatian Zhu, Ariel Shamir
+4; LabelMaker: Automatic Semantic Label Generation from RGB-D Trajectories; Silvan Weder, Hermann Blum, Francis Engelmann, Marc Pollefeys
+5; ALSTER: A Local Spatio-Temporal Expert for Online 3D Semantic Reconstruction; Silvan Weder, Francis Engelmann, Johannes L. Schönberger, Akihito Seki, Marc Pollefeys, Martin R. Oswald
+6; Diffusion Models for 3D Point Cloud Generation with a Transformer Backbone; Ruikai Cui
+7; DeDoDe: Detect, Don't Describe --- Describe, Don't Detect for Local Feature Matching; Johan Edstedt, Georg Bökman, Mårten Wadenbäck, Michael Felsberg
+11; Benchmarking Indoor Rooms: A Dataset for 3D Reconstruction and Novel View Synthesis; Xuqian Ren, Juho Kannala, Esa Rahtu
+12; Mirror-Aware Neural Humans; Daniel Ajisafe, James Tang, Shih-Yang Su, Bastian Wandt, Helge Rhodin
+13; Depth from Asymmetric Frame-Event Stereo: A Divide-and-Conquer Approach; Xihao Chen, Wenming Weng, Yueyi Zhang, Zhiwei Xiong
+14; DreamPersona: Text-guided Expressive Portrait Sculptor; Tingting Liao
+16; Learning to Find Better Models in RANSAC; Tong Wei, Yash Patel, Jiri Matas, Daniel Barath
+17; Dynamic 3D Gaussians: Tracking by Persistent Dynamic View Synthesis; Jonathon Luiten, Georgios Kopanas, Bastian Leibe, Deva Ramanan
+18; PanoSSC: Exploring Monocular Panoptic 3D Scene  Reconstruction for Autonomous Driving; Yining Shi, Jiusi Li, KUN JIANG, Ke Wang, Yunlong Wang, mengmeng yang, Diange Yang
+19; Scalable 3D Panoptic Segmentation with Superpoint Graph Clustering; Damien Robert, Hugo Raguet, Loic Landrieu
+20; Dynamic Prototype Adaptation with Distillation for Few-shot Point Cloud Segmentation; Jie Liu, Wenzhe Yin, Haochen Wang, Yunlu Chen, Jan-jakob Sonke, Efstratios Gavves
+21; ParisLuco3D: A high-quality target dataset for domain generalization of LiDAR perception; Jules Sanchez, Louis Soum-Fontez, Jean-Emmanuel Deschaud, Francois Goulette
+22; Developability Approximation for Neural Implicits through Rank Minimization; Pratheba Selvaraju
+23; Non-rigid Structure-from-Motion: Smooth Procrustean Alignment and Deformation Modeling; Jiawei Shi, Hui Deng, Yuchao Dai
+24; Training and Tuning Generative Neural Radiance Fields for Attribute-Conditional 3D-Aware Face Generation; Jichao Zhang
+25; FAVOR: Full body AR-based Virtual Object Rearrangement dataset; Kailin Li, Lixin Yang
+26; SALUDA: Surface-based Automotive LiDAR Unsupervised Domain Adaptation; Björn Michele, Alexandre Boulch, Gilles Puy, Tuan-Hung Vu, Renaud Marlet, Nicolas Courty
+27; Color-NeuS: Reconstructing Neural Implicit Surfaces with Color; Licheng Zhong, Lixin Yang, Kailin Li, Haoyu Zhen, Mei Han, Cewu Lu
+28; GRIP: Generating Interaction Poses Using Latent Consistency and Spatial Cues; Omid Taheri, Yi Zhou, Dimitrios Tzionas, Yang Zhou, Duygu Ceylan, Soren Pirk, Michael J. Black
+30; Learning Generalizable Morphable Radiance Fields for Dynamic Facial Avatars from Monocular RGB Videos; Jianfeng Wang, David Wong, Sunando Sengupta, Alexandros Neophytou, Thomas Lukasiewicz, Eric Sommerlade
+33; Synthesizing physically plausible human motions in 3D scenes; Liang Pan, Jingbo Wang, Buzhen Huang, Junyu Zhang, Haofan Wang, Xu Tang, Yangang Wang
+34; PointVoxel: A Simple and Effective Pipeline for Multi-View Multi-Modal 3D Human Pose Estimation; Zhiyu Pan, Zhi Chen Zhong, Wenxuan Guo, Yifan Chen, Jianjiang Feng, Jie Zhou
+35; Explicit Correspondence Matching for Generalizable Neural Radiance Fields; Yuedong Chen, Haofei Xu, Qianyi Wu, Chuanxia Zheng, Tat-Jen Cham, Jianfei Cai
+36; Generalizing Single-View 3D Shape Retrieval to Occlusions and Unseen Objects; Qirui Wu, Daniel Ritchie, Manolis Savva, Angel X Chang
+37; MonoLSS: Learnable Sample Selection For Monocular 3D Detection; Zhenjia Li, Jinrang Jia, Yifeng Shi
+38; Synthetic-to-Real Domain Generalized Semantic Segmentation for 3D Indoor Point Clouds; Yuyang Zhao, Na Zhao, Gim Hee Lee
+39; AnyDoor-NeRF: An Efficient and Hierarchical Framework for Large Extended Indoor Scene; Xiaoyan Yang, Dingbo Lu, Yanhong Zeng, Wenjie Liu, Changbo Wang, Yang Li
+40; RobustMVS: Domain-generalized Deep Multi-view Stereo; Hongbin Xu
+42; Zero-BEV: Zero-shot Projection of any First-Person Modality to BEV Maps; Gianluca Monaci, Leonid Antsfeld, Boris Chidlovskii, Christian Wolf
+43; Classical Photometric Stereo in Point Lighting Environments: Error Analysis and Mitigation; Simon Brenner, Robert Sablatnig
+44; POCO: 3D Pose and Shape Estimation with Confidence; Sai Kumar Dwivedi, Cordelia Schmid, Hongwei Yi, Michael J. Black, Dimitrios Tzionas
+45; What's Wrong with the Absolute Trajectory Error?; Seong Hun Lee, Javier Civera
+46; SoundMVDet: Sound Source 3D Localization and  Detection using Multiview Microphone Array and RGB-D Data; Yuhang He, Sangyun Shin, Anoop Cherian, Niki Trigoni, Andrew Markham
+47; TeCH: Text-guided Reconstruction of Lifelike Clothed Humans; Yangyi Huang, Hongwei Yi, Yuliang Xiu, Tingting Liao, Jiaxiang Tang, Deng Cai, Justus Thies
+48; TADA! Text to Animatable Digital Avatars; Tingting Liao, Hongwei Yi, Yuliang Xiu, Jiaxiang Tang, Yangyi Huang, Justus Thies, Michael J. Black
+50; KDTUNet:Lightweight Medical Image Segmentation Network with Knowledge Distillation Based on Layer Fusion of Transformer and UNet; Xuanshuo Fu, Shuyong Liu, Sizhao Li, Jingbo Sun, Xinyu Han
+51; HumanReg: Self-supervised Non-rigid Registration of Human Point Cloud; Yifan Chen, Zhiyu Pan, Zhi Chen Zhong, Wenxuan Guo, Jianjiang Feng, Jie Zhou
+52; CLIP-FO3D: Learning Free Open-world 3D Scene Representations from 2D Dense CLIP; Junbo Zhang
+53; LiDAR-NeRF: Novel LiDAR View Synthesis via Neural Radiance Fields; Tao Tang, Longfei Gao, Guangrun Wang, Yixing Lao, Peng Chen, Hengshuang Zhao, Dayang Hao, Xiaodan Liang, Mathieu Salzmann, Kaicheng Yu
+54; Revisiting Map Relations for Unsupervised Non-Rigid Shape Matching; Dongliang Cao, Paul Roetzer, Florian Bernard
+55; LocPoseNet: Robust Location Prior for Unseen Object Pose Estimation; Chen Zhao, Yinlin Hu, Mathieu Salzmann
+56; InstantAvatar: Efficient 3D Head Reconstruction via Surface Rendering; Antonio Canela, Pol Caselles, Ibrar Malik, Gil Triginer Garces, Eduard Ramon, Jaime Garcia, Jordi Sanchez-Riera, Francesc Moreno-Noguer
+57; SCULPT: Shape-Conditioned Unpaired Learning of Pose-dependent Clothed and Textured Human Meshes; Soubhik Sanyal, Partha Ghosh, Jinlong Yang, Michael J. Black, Justus Thies, Timo Bolkart
+58; YOLO-6D-Pose:Enhancing YOLO for Single-Stage Monocular Multi-Object 6D Pose Estimation; Debapriya Maji, Soyeb N Nagori, Manu Mathew, Deepak Poddar
+59; Towards Exact Recovery of 3D Wireframe Models with Learned Image Features; Jia Zheng, Zixin Zhang, Xiaoyang Hou, Xiaojun Yuan, Qiang Zou, Zihan Zhou
+60; SceNeRFlow: Time-Consistent Reconstruction of General Dynamic Scenes; Edith Tretschk, Vladislav Golyanik, Michael Zollhöfer, Aljaz Bozic, Christoph Lassner, Christian Theobalt
+61; PhoMoH: Implicit Photorealistic 3D Models of Human Heads; Mihai Zanfir, Thiemo Alldieck, Cristian Sminchisescu
+62; Image Pretrained Standard Transformers for 3D Point Cloud Understanding; Guocheng Qian, Abdullah Hamdi, Xingdi Zhang, Bernard Ghanem
+63; SPARF: Large-Scale Learning of 3D Sparse Radiance Fields from Few Input Images; Abdullah Hamdi, Bernard Ghanem, Matthias Nießner
+64; SUCRe: Leveraging Scene Structure for Underwater Color Restoration; Clémentin Boittiaux, Ricard Marxer, Claire Dune, Aurelien ARNAUBEC, Maxime Ferrera, Vincent HUGEL
+65; MELON: NeRF with Unposed Images in SO(3); Axel Levy, Mark J. Matthews, Matan Sela, Gordon Wetzstein, Dmitry Lagun
+66; RIVQ-VAE: Discrete Rotation-invariant 3D Representation Learning; Mariem MEZGHANNI, Malika Boulkenafed, Maks Ovsjanikov
+67; 3D Pose Estimation of Two Interacting Hands from a Monocular Event Camera; Christen Millerdurai, Diogo Luvizon, Viktor Rudnev, André Jonas, Jiayi Wang, Christian Theobalt, Vladislav Golyanik
+68; Interaction Replica: Tracking human–object interaction and scene changes from human motion; Vladimir Guzov, Julian Chibane, Riccardo Marin, Yannan He, Yunus Nail Saracoglu, Torsten Sattler, Gerard Pons-Moll
+69; RelPose++: Recovering 6D Poses from Sparse-view Observations; Amy Lin, Jason Y. Zhang, Deva Ramanan, Shubham Tulsiani
+71; Long-Term 3D Multi-Player Tracking by Multiview Multimodal Fusion; Wenxuan Guo, Meng Zhang, Zhiyu Pan, Yifan Chen, Jianjiang Feng, Jie Zhou
+72; Enhancing Generalizability of Representation Learning for Data-Efficient 3D Scene Understanding; Yunsong Wang, Na Zhao, Gim Hee Lee
+74; Sparse 3D Reconstruction via Object-Centric Ray Sampling; Llukman Cerkezi, Paolo Favaro
+76; PhysGraph: Physics-Based Cloth Enhancement Using Graph Neural Networks; Oshri Halimi, Egor Larionov, Zohar Barzelay, Philipp Herholz, Tuur Stuyck
+77; Fast High Dynamic Range Radiance Fields for Dynamic Scenes; guanjun Wu, Taoran Yi, Jiemin Fang, Xinggang Wang, Wenyu Liu
+78; TextMesh: Generation of Realistic 3D Meshes From Text Prompts; Christina Tsalicoglou, Fabian Manhardt, Alessio Tonioni, Michael Niemeyer, Federico Tombari
+79; Controllable 3D Hand-Grasp Generation for Interacting Human Avatars; Romana Wilschut, Omid Taheri, Dimitrios Tzionas
+80; LFM-3D: Learnable Feature Matching Across Wide Baselines Using 3D Signals; Arjun Karpur, Guilherme Mendeleh Perrotta, Ricardo Martin Brualla, Howard Zhou, Andre Araujo
+81; DehazeNeRF: Multi-image Haze Removal and 3D Shape Reconstruction using Neural Radiance Fields; Wei-Ting Chen, Wang Yifan, Sy-Yen Kuo, Gordon Wetzstein
+82; house layout; Yuting Li
+83; Optical flow guided pyramid network for video salient object detection; Sheng Hua
+84; TBD; Haoxi Ran
+85; FocDepthFormer: Transformer with LSTM for Depth Estimation from Focus; Xueyang Kang, Abdur R Fayjie, Fengze Han, Patrick Vandewalle, Dong Gong
+86; Semi_signed; Runsong Zhu
+87; Controllable Dynamic Appearance for Neural 3D Portraits; ShahRukh Athar, Zhixin Shu, Zexiang Xu, Fujun Luan, Sai Bi, Kalyan Sunkavalli, Dimitris Samaras
+88; Mesh Strikes Back: Fast and Efficient Human Reconstruction from monocular RGB videos; Rohit Jena, Pratik Chaudhari, James Gee, Ganesh Subramanian Iyer, Siddharth Choudhary, Brandon Smith
+89; FastHuman: Reconstructing High-Quality Clothed Human in Minutes; Lixiang Lin, Songyou Peng, Qijun Gan, Jianke Zhu
+90; Exploit Spatiotemporal Contextual Information for 3D Single Object Tracking via Memory Networks; JONGWON RA, Mengmeng Wang, Jianbiao Mei, Shanqi Liu, Yu Yang, Yong Liu
+91; S4C: Self-Supervised Semantic Scene Completion with Neural Fields; Adrian Hayler, Felix Wimbauer, Dominik Muhle, Christian Rupprecht, Daniel Cremers
+92; Continuous Cost Aggregation for Dual-Pixel Disparity Extraction; Sagi Monin, Sagi Katz, Georgios Evangelidis
+93; Revisiting Depth Completion from a Stereo Matching Perspective for Cross-domain Generalization; Luca Bartolomei, Matteo Poggi, Andrea Conti, Fabio Tosi, Stefano Mattoccia
+94; Polygon Intersection-over-Union Loss for Viewpoint-Agnostic Monocular 3D Vehicle Detection; Derek Gloudemans
+95; Dummy submission; Andrea Tagliasacchi
+96; Structured Light 3D Reconstruction with Hirearchical GraphCut Phase Unwrapping based on Invariance of Diffeomorphism Framework; Zhou Zhao, Xiang Gao, Xinmu Wang, David Gu
+98; Self Supervised Dual Contouring; Ramana Subramanyam Sundararaman, Roman Klokov, Maks Ovsjanikov
+99; Video Consistent Avatar; Jie Chen
+100; Joint Spatial-Temporal Calibration for Camera and Global Pose Sensor; Junlin Song, Antoine Richard, Miguel Olivares-Mendez
+101; 1; Wenjia Ren
+102; Learning Structure-from-Motion with Graph Attention Networks; Lucas Brynte, Jose Pedro Iglesias, Carl Olsson, Fredrik Kahl
+103; Physically Plausible Full-Body Hand-Object Interaction Synthesis; Jona Braun, Sammy Christen, Muhammed Kocabas, Emre Aksan, Otmar Hilliges
+104; A Latent Implicit 3D Shape Model for Multiple Levels of Detail; Benoît Guillard, Marc Habermann, Christian Theobalt, Pascal Fua
+105; PACE: Human and Camera Motion Estimation from in-the-wild Videos; Muhammed Kocabas, Ye Yuan, Pavlo Molchanov, Yunrong Guo, Michael J. Black, Otmar Hilliges, Jan Kautz, Umar Iqbal
+106; Unsupervised 2D-3D lifting of non-rigid objects using local constraints; Shalini Maiti, Lourdes Agapito, Benjamin Graham
+107; Few-View Object Reconstruction with Unknown Categories and Camera Poses; Hanwen Jiang, Zhenyu Jiang, Kristen Grauman, Yuke Zhu
+108; Multi-Body Neural Scene Flow; Kavisha Vidanapathirana, Shin-Fang Chng, Xueqian Li, Simon Lucey
+109; Handbook on Leveraging Lines for Two-View Relative Pose Estimation; Petr Hruby, Shaohui Liu, Rémi Pautrat, Marc Pollefeys, Daniel Barath
+110; consistent-NeRF; Kaichen Zhou
+111; Boosting Video-based Dynamic 3D Modeling by General Templates and Featuremetric Blend Skinning; Xiangyue Liu, Qingtian Zhu, Weixin Xu, Shuchang Zhou, Li Yi, Yang Gao
+112; FastMESH: Fast Surface Reconstruction by Hexagonal Mesh-based Neural Rendering; Yisu Zhang, Jianke Zhu, Lixiang Lin
+113; ModelNet-O: A Large-Scale Synthetic Dataset for Occlusion-Aware Point Cloud Classification; Zhongbin Fang, Xia Li, Xiangtai Li, Shen Zhao, Mengyuan Liu
+114; Incrementally-built Gaussian Ensemble Fields for Novel View Synthesis; Yash Sanjay Bhalgat
+115; 3D Shape Generation via Triplane Latent GANs; Shuo Wen, Julian Chibane, Bharat Lal Bhatnagar, Ning Yu, Gerard Pons-Moll
+116; Cross-view and Cross-pose Completion for Human Understanding; Matthieu Armando, Salma Galaaoui, Fabien Baradel, Thomas Lucas, Vincent Leroy, Romain Brégier, Philippe Weinzaepfel, Grégory Rogez
+117; SPHEAR: Spherical Head Registration for Complete Statistical 3D Modeling; Eduard Gabriel Bazavan, Andrei Zanfir, Teodor Alexandru Szente, Mihai Zanfir, Thiemo Alldieck, Cristian Sminchisescu
+118; Humans In The Wild NeRF: Complete Human Neural Representations from Limited Viewpoints; Mario Bijelic, Andrea Ramazzina, Stefanie Walz, Felix Heide, Alessandro Sanvito
+121; Partial-View Object View Synthesis via Filtering Inversion; Fan-Yun Sun, Jonathan Tremblay, Valts Blukis, Kevin Lin, Danfei Xu, Boris Ivanovic, Peter Karkus, Stan Birchfield, Dieter Fox, Ruohan Zhang, Yunzhu Li, Jiajun Wu, Marco Pavone, Nick Haber
+122; Oriented-grid Encoder for 3D Implicit Representations; Arihant Gaur, Gonçalo Dias Pais, Pedro Miraldo
+123; Addressing Low-Shot MVS by Detecting and Completing Planar Surfaces; Rajbir Kataria, Zhizhong Li, Joseph DeGol, Derek Hoiem
+124; VINECS: Video-based Neural Character Skinning; Zhouyingcheng Liao, Vladislav Golyanik, Marc Habermann, Christian Theobalt
+125; CLIP3Dstyler: Language Guided 3D Arbitrary Neural Style Transfer; Ming Gao, yanwu xu, Mingming Gong
+126; Monocular zoom 3D reconstruction based on variational optical flow; Jinao Song, Hao Fan, Junyu Dong
+127; Improving 3D Object Detection Through Diversity Driving Augmentation ; Jean Lahoud
+128; Purposer: Putting Human Motion Generation in Context; Nicolás Ugrinovic, Thomas Lucas, Fabien Baradel, Philippe Weinzaepfel, Grégory Rogez, Francesc Moreno-Noguer
+130; RoomDesigner: Encoding Anchor-latents for Style-consistent and Shape-compatible Indoor Scene Generation; Yiqun Zhao, Zibo Zhao, Jing Li, Sixun Dong, Shenghua Gao
+131; Most Relevant Viewpoint of an Object: a View-Dependent 3D Saliency Approach; Marie Pelissier-Combescure, Sylvie Chambon, Géraldine Morin
+132; On Unifying Single-View Object Pose Estimation and Neural Reconstruction; Yuliang Guo, Cheng Zhao, Ruoyu Wang, Xinyu Huang, Liu Ren
+133; Global SfM Revisited; Akshay Krishnan, John Lambert, Ayush Baid, Travis Driver, Frank Dellaert
+135; Robust Point Cloud Processing through Positional Embedding; Jianqiao Zheng, Xueqian Li, Sameera Ramasinghe, Simon Lucey
+136; A Hybrid Generative and Discriminative PointNet on Unordered Point Sets; Yang Ye, Shihao Ji
+137; Incorporating Rotation Invariance with Non-invariant Networks for Point Clouds; Jiajun Fei, Zhidong Deng
+138; Range-Agnostic Multi-View Depth Estimation with Keyframe Selection; Andrea Conti, Matteo Poggi, Valerio Cambareri, Stefano Mattoccia
+139; A Fusion of Variational Distribution Priors and Saliency Map Replay for Continual 3D Reconstruction; Sanchar Palit, Sandika Biswas
+140; Applying Plain Transformers to Real-World Point Clouds; Lanxiao Li, Michael Heizmann
+142; Leveraging Image Matching Toward End-to-End Relative Camera Pose Regression; Fadi Khatib, Yuval Margalit, Meirav Galun, Ronen Basri
+143; Split, Merge, and Refine: Fitting Tight Bounding Boxes via Over-Segmentation and Iterative Search; Chanhyeok Park, Minhyuk Sung
+144; CLIP-Head: Text-Guided Generation of Textured Neural Parametric 3D Head Models; Pranav Manu, Astitva Srivastava, Avinash Sharma
+145; Physics-based Indirect Illumination for Inverse Rendering; Youming Deng, Xueting Li, Sifei Liu, Ming-Hsuan Yang
+148; Improved Scene Landmark Detection for Camera Localization; Tien Do, Sudipta N. Sinha
+150; Practical Measurement and Neural Encoding of Hyperspectral Skin Reflectance; Xiaohui Li, Giuseppe Claudio Guarnera, Arvin Lin, Abhijeet Ghosh
+151; PointCAT: Cross-Attention Transformer for Point Cloud; xincheng yang
+152; GeoGen: Geometry-Aware Generative Modeling via Signed Distance Functions; Salvatore Esposito, Qingshan Xu, Kacper Kania, Charlie Hewitt, Octave Mariotti, Lohit Petikam, Julien Valentin, Arno Onken, Oisin Mac Aodha
+153; Are Semi-Dense Detector-Free Methods Good at Matching Local Features?; Matthieu Vilain, Rémi Giraud, Hugo Germain, Guillaume Bourmaud
+154; 123; Jianchun Chen
+155; Sparse SPN: Depth Completion from Sparse Keypoints ; Yuqun Wu, Jae Yong Lee, Derek Hoiem
+156; MixRT: Mixed Neural Representations For Real-Time NeRF Rendering; Chaojian Li, Bichen Wu, Peter Vajda, Yingyan Celine Lin
+158; Magic Tailor: a Latent-Anchor based Diffusion Model for 3D Clothes Generation; Zibo Zhao, Wen Liu, Xin Chen, Gang YU, Shenghua Gao
+160; MuVieCAST: Multi-View Consistent Artistic Style Transfer; Nail Ibrahimli, Julian F. P. Kooij, Liangliang Nan
+161; FewShotNeRF - Novel View Synthesis of Common objects with few views; Piraveen Sivakumar, Paul Janson, Jathushan Rajasegaran, Thanuja Ambegoda
+162; Test-Time Augmentation for 3D Point Cloud Classification and Segmentation; Tuan-Anh Vu, Srinjay Sarkar, Zhiyuan Zhang, Binh-Son Hua, Sai-Kit Yeung
+163; CAN: Channel-Aware Network for Human Pose Estimation; Guosheng Zhao, Jiayu Zou, Xingang Wang
+164; Farm3D: Learning Articulated 3D Animals by Distilling 2D Diffusion; Tomas Jakab, Ruining Li, Shangzhe Wu, Christian Rupprecht, Andrea Vedaldi
+165; GenLayNeRF: Generalizable Layered Representations with 3D Model Alignment for Human View Synthesis; Youssef Abdelkareem, Shady Shehata, Fakhri Karray
+166; Self-Supervised Contrastive Learning for Semantic Segmentation of Outdoor LiDAR Point Clouds; Reza Mahmoudi Kouhi, Philippe Giguère, Sylvie Daniel
+167; A Self-Attention Network for Stereo Matching; Menglong Yang, Hanyong Wang, Yang Ren
+168; Video2StyleGAN: Disentangling Local and Global Variations in a Video; Rameen Abdal, Peihao Zhu, Niloy Mitra, Peter Wonka
+169; A Local Appearance Model for Volumetric Capture of Diverse Hairstyles; Ziyan Wang, Giljoo Nam, Aljaz Bozic, Chen Cao, Jason Saragih, Michael Zollhöfer, Jessica K. Hodgins
+170; Compositional 3D Scene Generation using Locally Conditioned Diffusion; Ryan Po, Gordon Wetzstein
+171; Unsupervised Representation Learning for Diverse Deformable Shape Collections; Sara Hahner, Souhaib Attaiki, Jochen Garcke, Maks Ovsjanikov
+172; Shape Non-rigid Kinematics (SNK): A Zero-Shot Method for Non-Rigid Shape Matching via Unsupervised Functional Map Regularized Reconstruction; Souhaib Attaiki
+173; OPDMulti: Openable Part Detection for Multiple Objects; Xiaohao Sun, Hanxiao Jiang, Manolis Savva, Angel X Chang
+174; Learning to Estimate 6DoF Pose from Limited Data: A Few-Shot, Generalizable, Model-Free Approach using RGB Images; Panwang Pan, Zhiwen Fan, Brandon Yushan Feng, Peihao Wang, Chenxin Li, Zhangyang Wang
+175; Efficient 3D Articulated Human Generation with Layered Surface Volumes; Yinghao Xu, Wang Yifan, Alexander William Bergman, Menglei Chai, Bolei Zhou, Gordon Wetzstein
+176; MOCHI: Generating 4D Human-Object Interactions via Multi-scale Object-Centric HOI Representation; Hongjie Li, Zimo He, Nan Jiang, Tengyu Liu, Siyuan Huang, Yixin Zhu
+177; Consistent-1-to-3: Consistent Image to 3D View Synthesis via Geometry-aware Diffusion Models; Jianglong Ye, Peng Wang, Kejie Li, Yichun Shi, Heng Wang
+178; Q-REG: End-to-End Trainable Point Cloud Registration with Surface Curvature; Shengze Jin, Daniel Barath, Marc Pollefeys, Iro Armeni
+179; BLiSS: Bootstrapped Linear Shape Space; Sanjeev Muralikrishnan, Duygu Ceylan, Chun-Hao Paul Huang, Niloy Mitra
+180; Quantum-Hybrid Stereo Matching with Nonlinear Regularization and Spatial Pyramids; Cameron Braunstein, Eddy Ilg, Vladislav Golyanik
+181; Correspondence-free online human motion retargeting; Rim REKIK DIT NEKHILI, Mathieu Marsot, Stefanie Wuhrer, Jean-Sébastien Franco, Anne-Hélène Olivier
+182; Equivariant Analysis of Point Clouds by Message Passing on Simplicial Complexes; Chang Yu, Sanguo Zhang, Li-Yong Shen
+183; Physics-Based Rigid Body Object Tracking and Friction Filtering From RGB-D Videos; Rama Krishna Prasad Kandukuri, Michael Strecke, Joerg Stueckler
+184; Fast Relative Pose Estimation using Relative Depth; Jonathan Astermark, Yaqing Ding, Viktor Larsson, Anders Heyden
+185; InpaintNeRF360: Text-Guided 3D Inpainting on Unbounded Neural Radiance Fields; Dongqing Wang, Tong Zhang, Alaa Abboud, Sabine Süsstrunk
+186; CLIP-based Few Shot Point Cloud Classification via Point Cloud to Image Translation; Shuvozit Ghose, Manyi Li, Yiming Qian, Yang Wang
+187; Sparse-view Supervised Tensorial Segmentation Radiance Field for 3D-Consistent Panoptic Segmentation; Bin Dou, Yongjia Ma, Tianyu Zhang, Zejian Yuan
+188; Being Friends with Floaters: Learning Radiance Fields from Hazy Images; Jiawei Zhang, Zhide Zhong, Zirui Wu, Yuantao Chen, Zike Yan, Yongliang Shi, Guyue Zhou, Hao Zhao
+189; PIVOT-Net: Heterogeneous Point-Voxel-Tree-based Framework for Point Cloud Compression; Jiahao Pang, Kevin Bui, Dong Tian
+190; TransferRecon: Transfer-Learning underWeak-Supervision for Explicit 3D Reconstruction of Universal Indoor Scenes from Monocular Images; Runfa Li, Upal Mahbub, Vasudev Bhaskaran, Truong Nguyen
+191; OCBEV: Object-Centric BEV Transformer for Multi-View 3D Object Detection; Zhangyang Qi, Jiaqi Wang, Xiaoyang Wu, Hengshuang Zhao
+192; Neural Fields for Co-Reconstructing 3D Objects from Incidental 2D Data; Dylan Campbell, Eldar Insafutdinov, Joao F. Henriques, Andrea Vedaldi
+193; Amodal Completion in the Wild; Guanqi Zhan, Chuanxia Zheng, Weidi Xie, Andrew Zisserman
+196; SimpleEgo: Predicting probabilistic body pose from egocentric cameras; Hanz Cuevas Velasquez, Charlie Hewitt, Mohammad Sadegh Aliakbarian, Tadas Baltrusaitis
+197; Towards Learning Monocular 3D Object Localization From 2D Labels using the Physical Laws of Motion; Daniel Kienzle, Julian Lorenz, Katja Ludwig, Rainer Lienhart
+198; SCENES: Subpixel Correspondence Estimation with Epipolar Supervision; Dominik Kloepfer, Dylan Campbell, Joao F. Henriques
+199; Continuous Online Extrinsic Calibration of Fisheye Camera and LiDAR; Jack J Borer, Jeremy Tschirner, Florian Ölsner, Stefan Milz
+200; 3D-TexSeg: Unsupervised Segmentation of 3D Texture using Mutual Transformer Learning; Iyyakutti Iyappan Ganapathi, Sajid Javed, Naoufel Werghi
+201; Bridging the MoCap-to-Visual Domain Gap in Human Mesh Recovery from 2D Keypoints; Bedirhan Uguz, Batuhan Karagoz, Ozhan Suat, Emre Akbas
+202; DeepDR: Deep Structure-Aware RGB-D Inpainting for Diminished Reality; Christina Schwarz-Gsaxner, Shohei Mori, Dieter Schmalstieg, Jan Egger, Gerhard Paar, Werner Bailer, Denis Kalkofen
+203; Depth Reconstruction with Neural Signed Distance Fields in Structured Light Systems; Rukun Qiao, Hiroshi Kawasaki, Hongbin Zha
+204; Point2CAD: Reverse Engineering CAD Models from 3D Point Clouds; Yujia Liu, Anton Obukhov, Jan Dirk Wegner, Konrad Schindler
+205; Robust and Object-aware Motion Generation using Neural Pose Descriptors; Wanyue Zhang, Rishabh Dabral, Thomas Leimkuehler, Vladislav Golyanik, Marc Habermann, Christian Theobalt
+206; Lang3DSG: Language-based contrastive pre-training for 3D scene graph prediction; Sebastian Koch, Pedro Hermosilla, Narunas Vaskevicius, Mirco Colosi, Timo Ropinski
+207; PoissonNet: Resolution-Agnostic 3D Shape Reconstruction using Fourier Neural Operators; Hector Andrade-Loarca, Julius Hege, Aras Bacho, Gitta Kutyniok
+208; Generating Continual Human Motion in Diverse 3D Scenes; Aymen Mir, Xavier Puig, Angjoo Kanazawa, Gerard Pons-Moll
+210; Non-Line-of-Sight Imaging from indirect Time of Flight data; Matteo Caligiuri, Gianluca Agresti, Adriano Simonetto, Pietro Zanuttigh
+211; Taylor3DNet: Fast 3D Shape Inference With Landmark Points Based Taylor Series; Jiale Xu, Yuting Xiao, Shenghua Gao
+212; Cloud-Stereo: A Dataset and Benchmark for Cloud Depth Estimation; Jacob Lin, Edward Gryspeerdt, Ronald Clark
+215; Contextualising Implicit Representations for Semantic Tasks; Theo Winston Costain, Kejie Li, Victor Adrian Prisacariu
+216; Mixing-Denoising Generalizable Occupancy Networks; Amine Ouasfi, Adnane Boukhayma
+217; Select-Sliced Wasserstein Distance for Point Cloud Learning; Bang Du, Kunyao Chen, Haochen Zhang, Truong Nguyen
+218; Stable Surface Regularization for Fast Few-Shot NeRF; ByeongIn Joung, Byeong-Uk Lee, Jaesung Choe, Ukcheol Shin, Minjun Kang, Taeyeop Lee, In-So Kweon, Kuk-Jin Yoon
+219; Research on 3D terrain reconstruction and step-like surface restoration for natural environment; Youru Wu, Siyang Zhang, Guixia Gao, Jian Geng, Chen Lu
+220; LatentSwap3D: Semantic Edits on 3D Image GANs; Enis Simsar, Evin Pinar Örnek, Alessio Tonioni, Federico Tombari
+221; HOC-Search: Efficient CAD Model and Pose Retrieval from RGB-D Scans; Stefan Ainetter, Sinisa Stekovic, Friedrich Fraundorfer, Vincent Lepetit
+222; NCRF: Neural Contact Radiance Fields for Free-viewpoint Rendering of Hand-Object Interactions; Zhongqun Zhang, Jifei Song, Eduardo Pérez-Pellitero, Yiren Zhou, Hyung Jin Chang, Ales Leonardis
+223; Geometrically Consistent Partial Shape Matching; Viktoria Ehm, Paul Roetzer, Marvin Eisenberger, Maolin Gao, Florian Bernard, Daniel Cremers
+224; Incorporating Temporal Information into 3D Hand Pose Estimation using Scene Flow; Niklas Hermes, Alexander Bigalke, Mattias P Heinrich
+225; Towards Loose-Fitting Garment Animation via Generative Model of Deformation Decomposition; Yifu Liu, xiaoxia li, Zhiling Luo, Wei Zhou
+226; Fusing Directions and Displacements in Translation Averaging; Lalit Manam, Venu Madhav Govindu
+228; Single-view 3D Scene Reconstruction with High-fidelity Shape and Texture; Yixin Chen, Junfeng Ni, Nan Jiang, Yaowei Zhang, Yixin Zhu, Siyuan Huang
+229; ContactArt: Learning 3D Interaction Priors for Category-level Articulated Object and Hand Poses Estimation; Zehao Zhu, Jiashun Wang, Yuzhe Qin, Deqing Sun, Varun Jampani, Xiaolong Wang
+230; Cloth2Tex: A Customized Cloth Texture Generation Pipeline for 3D Virtual Try-On; Daiheng Gao, Xu Chen, Xindi Zhang, Qi WANG, Ke Sun, Bang Zhang, Liefeng Bo, Qixing Huang
+233; Mean Teacher for Unsupervised Domain Adaptation in Multi-View 3D Pedestrian Detection; João Paulo Silva do Monte Lima, Diego Thomas, Hideaki Uchiyama, Veronica Teichrieb
+234; NeRFMeshing: Distilling Neural Radiance Fields into Geometrically-Accurate 3D Meshes; Marie-Julie Rakotosaona, Fabian Manhardt, Diego Martín Arroyo, Michael Niemeyer, Abhijit Kundu, Federico Tombari
+235; Coherence, Distance and Error: Understanding Coded Demodulation in Pulse-based Time-of-Flight Cameras; Alvaro Lopez Paredes, Felipe Gutierrez-Barragan, Miguel Heredia Conde
+236; Rethinking 3D Scene Graph Alignment and Its Downstream Tasks with Feature Fusion Aided Top-K Partial Graph Matching; Yaxu Xie, Alain Pagani, Didier Stricker
+237; Field-of-View Agnostic Depth Estimation for Cross-Dataset Generalization; Daniel Lichy, Hang Su, Abhishek Badki, Jan Kautz, Orazio Gallo
+238; Fast Lighting-Aware SVBRDF Estimation in the Wild; Pierre-Alain Langlois, Andrea Romanoni, Sunil Hadap, Frederic Devernay
+239; Multi-hop Graph Transformer Network for 3D Human Pose Estimation; Abdessamad Ben Hamza, Zaedul Islam
+240; Dress Me Up: A Dataset & Method for Self-Supervised 3D Garment Retargeting; Shanthika Naik, Kunwar Maheep Singh, Astitva Srivastava, Dhawal Sirikonda, Amit Raj, Varun Jampani, Avinash Sharma
+241; NeuralPlants: Neural Radiance Fields for 3D Reconstruction of Non-rigid Plants from Monocular Videos; Uchitha Rajapaksha, Hamid Laga, Dean Diepeveen, Mohammed Bennamoun, Ferdous Sohel
+242; Multi-modal Multi-task Interpretable Autonomous Driving; Xuean Huang, Jianmei Su
+244; Enhancing 3D Detection Through Feature Aligned Deep Fusion; Lemeng Wu, Dilin Wang, Meng Li, Yunyang Xiong, Raghuraman Krishnamoorthi, qiang liu, Vikas Chandra
+245; A Simple Attempt for 3D Occupancy Estimation in Autonomous Driving; Wanshui Gan, Ningkai Mo, Hongbin Xu, Naoto Yokoya
+246; PU-SDF: Arbitrary-Scale Uniformly Upsampling Point Clouds via Signed Distance Functions; Shaohui Pan, Yong Xu, Ruotao Xu
+247; MonoHuman: Neural Human Rendering from a Monocular Video; Chen Li, Jiahao Lin, Gim Hee Lee
+248; Efficient Neighbor Gathering for Point Cloud Processing; Xujie Shen, Ziqi Wen, Yawei Li, Ligeng Zhu, Hujun Bao, Zhaopeng Cui
+249; MC-Stereo: Multi-peak Lookup and Cascade Search Range for Stereo Matching; Miaojie Feng, JunDa Cheng, Hao Jia, Longliang Liu, Gangwei Xu, Xin Yang
+250; Rethinking the expressiveness of small targets in UAV scenes via adaptive multi-scale and context-aware feature fusion; Xinghua Wang, weilin Liu, LunQian Wang, Zekai Zhang, jinglin zhang, Xing Wang
+251; shabi; Furry Liu
+252; Representing 3D human motion as a sequence of latent primitives; Mathieu Marsot, Stefanie Wuhrer, Jean-Sébastien Franco, Anne-Hélène Olivier
+253; ArtiGrasp: Physically Plausible Synthesis of Bi-Manual Dexterous Grasping and Articulation; Hui Zhang, Sammy Christen, Zicong Fan, Luocheng Zheng, Jemin Hwangbo, Jie Song, Otmar Hilliges
+255; LOCO-PCR: A Novel Outlier Removal Method with Local Correction for Feature-based Point Cloud Registration; Yunhui Zhong, Jianliang Ma, Wei Xi, Jianghua Wu, JUN GONG
+256; Depth Estimation for Flexible Ureteroscopic Images Based on Style Transfer; Jingjing Yin, Yu Zhao, Yu Dai, Gongping Chen
+257; A simple and efficient point cloud sampling strategy based on cluster merging; Bai Zhu Hua, Fantong Meng, Renke Kang, Guolin Yang, Gang Zhi Dong
+258; MatFuse: Controllable Material Generation with Diffusion Models; Giuseppe Vecchio, Renato Sortino, Simone Palazzo, Concetto Spampinato
+259; CombiNeRF: a Combination of Regularization Techniques for Few-Shot Neural Radiance Field View Synthesis; Matteo Bonotto, Luigi Sarrocco, Daniele Evangelista, Marco Imperoli, Alberto Pretto
+260; TECA: Text-Guided Generation and Editing of Compositional 3D Avatars; HAO ZHANG, Yao Feng, Peter Kulits, Yandong Wen, Justus Thies, Michael J. Black
+261; AP$n$P: A Less-constrained P$n$P Solver for Pose Estimation with Unknown Anisotropic Scaling or Focal Lengths; Jiaxin Wei, Stefan Leutenegger, Laurent Kneip
+262; Piecewise Planar Hulls for Semi-Supervised Learning of 3D Shape and Pose from 2D Images; Yigit Baran Can, Alexander Liniger, Danda Pani Paudel, Luc Van Gool
+264; Photometric visibility matrix for the automatic selection of optimal viewpoints; Vanessa Staderini, Tobias Glück, Roberto Mecca, Petra Gospodnetic, Philipp Schneider, Andreas Kugi
+265; Diffusion-HPC: Synthetic Data Generation for Human Mesh Recovery in Challenging Domains; Zhenzhen Weng, Laura Bravo-Sánchez, Serena Yeung
+266; ZeroAvatar: Zero-shot 3D Avatar Generation from a Single Image; Zhenzhen Weng, Zeyu Wang, Serena Yeung
+267; ImpulseGNN: Learning Collision Response for Multi-Layer Outfits; Artur Grigorev, Michael J. Black, Otmar Hilliges, Bernhard Thomaszewski
+268; CloSe: A 3D Clothing Segmentation Dataset and Model; Dimitrije Antic, Garvita Tiwari, Batuhan Ozcomlekci, Riccardo Marin, Gerard Pons-Moll
+269; LumiGAN: Unconditional Generation of Relightable 3D Human Faces; Boyang Deng, Wang Yifan, Gordon Wetzstein
+271; LiDAR-Based 3D Object Detection via Hybrid 2D Semantic Scene Generation; Haitao Yang, Zaiwei Zhang, Xiangru Huang, Min Bai, Chen Song, Bo Sun, Li Erran Li, Qixing Huang
+272; A Benchmark Grocery Dataset of Realworld Point Clouds from Single View; Shivanand Venkanna Sheshappanavar, Tejas Anvekar, Shivanand Kundargi, Yufan Wang, Chandra Kambhamettu
+273; GAPS: Geometry-Aware, Physics-Based, Self-Supervised Neural Garment Draping; Ruochen Chen, Liming Chen, Shaifali Parashar
+274; DA-RCNN: Dual-Aware 3D Object Detector for Point Cloud; Yidong Jiang, Qing Xie, Yanchun Ma, Jiachen Li, Jinyu Xu, Yongjian Liu
+275; CasOmniMVS: Cascade Omnidirectional Depth Estimation With Dynamic Spherical Sweeping; Pinzhi Wang, Ming Li, Jinghao Cao, Sidan Du, Yang Li
+276; Learning based Infinite Terrain Generation with Level of Detailing; Aryamaan Jain, Avinash Sharma, K. Rajan
+277; NeVRF: Neural Video-based Radiance Fields for Long-duration Sequences; Minye Wu, Tinne Tuytelaars
+278; GP-PCS: One-shot Feature-Preserving Point Cloud Simplification with Gaussian Processes on Riemannian Manifolds; Stuti Pathak, Thomas M. McDonald, Rudi Penne
+281; DeepShaRM: Multi-View Shape and Reflectance Map Recovery Under Unknown Lighting; Kohei Yamashita, Shohei Nobuhara, Ko Nishino
+282; Randomized 3D Scene Generation for Generalizable Self-Supervised Pre-Training; Lanxiao Li, Michael Heizmann
+283; Neural Volumetric Mesh Generator; Yan Zheng, Lemeng Wu, Zhen Chen, Xingchao Liu, qiang liu, Qixing Huang
+284; GAN-Avatar: Controllable Personalized GAN-based Human Head Avatar; Berna Kabadayi, Wojciech Zielonka, Bharat Lal Bhatnagar, Gerard Pons-Moll, Justus Thies
+286; Continual Road-Scene Semantic Segmentation via Feature-Aligned Symmetric Multi-Modal Network; Francesco Barbato, Elena Camuffo, Simone Milani, Pietro Zanuttigh
+287; Occlusion Resilient 3D Human Pose Estimation; SOUMAVA KUMAR ROY, Ilia Badanin, Sina Honari, Pascal Fua
+288; Event-based Visual Odometry on Non-holonomic Ground Vehicles; Wanting Xu, Si'ao Zhang, Li Cui, Xin Peng, Laurent Kneip
+289; Generalized Relative Pose and Scale from Affine Correspondences; Wanting Xu, Xinyue Zhang, Marc Pollefeys, Daniel Barath, Laurent Kneip
+290; Hierarchical Insights: Exploiting Structural Similarities for Reliable 3D Semantic Segmentation; Mariella Dreissig, Florian Piewak, Joschka Boedecker
+291; Deep Event Visual Odometry; Simon Klenk, Marvin Motzet, Lukas Koestler, Daniel Cremers
+292; ROMEO: Revisiting Optimization Methods for Reconstructing 3D Human-Object Interaction Models From Images; Alexey Gavryushin, Yifei Liu, Daoji Huang, Yen-Ling Kuo, Julien Valentin, Luc Van Gool, Otmar Hilliges, Xi Wang
+293; On Partial Shape Correspondence and Functional Maps; Amit Bracha, Thomas Dagès, Ron Kimmel
+294; 3D face reconstruction from a single image by pose extension in latent space; Zhao Zhang, WonSook Lee
+295; Alpha-NeRF: High-Resolution Multiview-consistent Rendering and Alpha Matting of Heads from Sparse Views; Zhiwen Fan, Di Qiu, Yinda Zhang, Kripasindhu Sarkar, Erroll William Wood, Zhengyang Shen, Daoye Wang, Brandon Yushan Feng, Abhimitra Meka, Hossam Isack, Paulo Gotardo, Alexander Sahba Koumis, Thabo Beeler, Sergio Orts-Escolano
+296; Articulated 3D Head Avatar Generation using Text-to-Image Diffusion Models; Alexander William Bergman, Wang Yifan, Gordon Wetzstein
+297; hand motion priors; Enes Duran
+298; UAVD4L: A Large-Scale Dataset for UAV 6-DoF Localization; Rouwan Wu, Xiaoya Cheng, Juelin Zhu, Yuxiang Liu, Maojun Zhang, Shen Yan
+299; Control3Diff: Learning Controllable 3D Diffusion Models from Single-view Images; Jiatao Gu, Qingzhe Gao, Shuangfei Zhai, Baoquan Chen, Lingjie Liu, Joshua M. Susskind
+300; Toonme3D: Stylizing 3D Face by Reconstruction from Stylized Images; Yuda Qiu, Yi Li, Xiao Zitong, Xianggang Yu, Yushuang Wu, Xiaoguang Han
+302; Coherent Enhancement of Depth Images and Normal Maps\\using Second-order Geometric Models on Weighted Finite Graphs; Andreas Görlitz, Michael Moeller, Andreas Kolb
+303; Unsupervised 3D Keypoint Discovery with Multi-View Geometry; Sina Honari, Chen Zhao, Mathieu Salzmann, Pascal Fua
+304; Object Category-Based Visual Dialog for Effective Question Generation; Feifei Xu, Yingchen Zhou, Zheng Zhong, Guangzhen Li
+305; 3D Part Segmentation of Synthetic Tree Pointclouds with Deep Learning; Gunner Stone, Sushmita Sarker, Jonathan Greenberg, Alireza Tavakkoli
+308; TFAN:Twin-Flow Axis Normalization for Human Motion Prediction; Xin Du, Zongying Li, Sheng Yan, Haoqiang Wang, Mengyuan Liu
+309; ASMNet: 3D Human Motion Generation based on Action and Styles; Zongying Li, Xin Du, Mengyuan Liu
+310; Diffusion Shape Prior for Wrinkle-Accurate Cloth Registration; Jingfan Guo, Fabian Prada, Donglai Xiang, Javier Romero, Chenglei Wu, Hyun Soo Park, Takaaki Shiratori, Shunsuke Saito
+311; ActiveRMAP: Radiance Field for Active 3D Mapping; Huangying Zhan, Jiyang Zheng, Yi Xu, Ian Reid, Hamid Rezatofighi
+312; ActiveNeuS: Neural Signed Distance Fields for Active Stereo; Kazuto Ichimaru, Takaki Ikeda, Diego Thomas, Takafumi Iwaguchi, Hiroshi Kawasaki
+313; FFF-CurrViT: Fast Fine-Featured Curriculum Vision Transformer for 3D Implicit Shape Representations; Jiyoon Shin, Jungwoo Lee
+314; Source-Free Domain Adaptation for RGB-D Semantic Segmentation with Vision Transformers; Giulia Rizzoli, Donald Shenaj, Pietro Zanuttigh
+315; 3DRef: 3D Dataset and Benchmark for Reflection Detection in RGB and Lidar Data; Xiting Zhao, Sören Schwertfeger
+316; Relative Pose for Nonrigid Multi-Perspective Cameras: The Static Case; Min Li, Jiaqi Yang, Laurent Kneip
+317; IS-NEAR: Implicit Semantic Neural Engine and Multi-Sensor Data Rendering with 3D Global Feature; Tiecheng Sun, Wei Zhang, Xingliang Dong, Tao Lin
+318; PoseViTNet: Multi-Scene Absolute Pose Regression Using Vision Transformers; Asmaa Loulou, Mustafa Unel
+320; NeRF based Object Pose Estimation using Feature Rendering; Shishir Reddy Vutukur, Heike Brock, Benjamin Busam, Tolga Birdal, Andreas Hutter, Slobodan Ilic
+321; Neural Surfel Reconstruction: Addressing Loop Closure Challenges in Neural Representation; Jiadi Cui, Sören Schwertfeger, Laurent Kneip
+322; MV-ROPE: Multi-view Constraints for Robust Category-level Object Pose and Size Estimation; Jiaqi Yang, Yucong Chen, Xiangting Meng, Chenxin Yan, Min Li, Ran Cheng, Lige Liu, Tao Sun, Laurent Kneip
+323; MACS: Mass Conditioned 3D Hand and Object Motion Synthesis; Soshi Shimada, Franziska Mueller, Jan Bednarik, Bardia Doosti, Bernd Bickel, Danhang Tang, Vladislav Golyanik, Jonathan Taylor, Christian Theobalt, Thabo Beeler
+324; Radiance-supervised Surface Reconstruction with Regional Adaptive Training; Yida Wang, David Joseph Tan, Nassir Navab, Federico Tombari
+325; PRAGO: Differentiable multi-view pose optimization from objectness detections; Matteo Taiana, Matteo Toso, Stuart James, Alessio Del Bue
+326; fMPI: Fast Novel View Synthesis in the Wild with Layered Scene Representations; Jonas K Kohler, Nicolas Griffiths, Luca Cavalli, Alberto García García, Albert Pumarola, Catherine Herold, Ali Thabet
+327; Real-time volumetric rendering of dynamic humans; Ignacio Rocco, Iurii Makarov, Filippos Kokkinos, David Novotny, Benjamin Graham, Natalia Neverova, Andrea Vedaldi
+328; Critical Points ++: An Agile Point Cloud Importance Measure for Robust Classification, Adversarial Defense and Explainable AI; Meir Yossef Levi, Guy Gilboa
+330; CoARF: Controllable 3D Artistic Style Transfer for Radiance Fields; Deheng Zhang, Clara Fernandez Labrador, Christopher Schroers
+331; Self-Supervised Learning of Skeleton-Aware Morphological Representation for 3D Neuron Segments; Daiyi Zhu, Qihua Chen, Xuejin Chen
+332; Curvy: A Parametric Cross-section based Point Cloud Reconstruction; Aradhya Neeraj Mathur, Apoorv Khattar, Ojaswa Sharma
+333; Ray-Patch: An Efficient Querying for Light Field Transformers; Tomas Berriel Martins, Javier Civera
+334; Dense Visual Correspondence via Viewpoint-Guided Spherical Maps; Octave Mariotti, Oisin Mac Aodha, Hakan Bilen
+335; CF-PVT: A Coarse-to-Fine Framework for Point Voxel Transformer; Bai Zhu Hua, Guolin Yang, Renke Kang, Fantong Meng, Gang Zhi Dong
+336; Spherical Feature Pyramid Networks for Image Segmentation; Thomas Walker, Varun Anand
+337; SlimmeRF: Slimmable Radiance Fields; Shiran Yuan, Hao Zhao
+338; DAC: Detector-Agnostic Spatial Covariances for Deep Local Features; Javier Tirado-Garín, Frederik Rahbæk Warburg, Javier Civera
+339; PlaNeRF: SVD Unsupervised 3D Plane Regularization for NeRF Large-Scale Urban Scene Reconstruction; Fusang WANG, Arnaud Louys, Nathan Piasco, Moussab Bennehar, Luis Guillermo Roldao Jimenez, Dzmitry Tsishkou
+340; DynaPix SLAM: A pixel-based dynamic SLAM approach; Chenghao Xu, Elia Bonetto, Aamir Ahmad
+341; Cross3DVG: Cross-Dataset 3D Visual Grounding on Different RGB-D Scans; Taiki Miyanishi, Daichi Azuma, Shuhei Kurita, Motoaki Kawanabe
+342; Emotional Speech-Driven 3D Body Animation via Disentangled Latent Diffusion; Kiran Chhatre, Radek Danecek, Nikos Athanasiou, Giorgio Becherini, Christopher Edward Peters, Michael J. Black, Timo Bolkart
+343; BEVContrast: Self-Supervision in BEV Space for Automotive Lidar Point Clouds; Corentin Sautier, Gilles Puy, Alexandre Boulch, Vincent Lepetit, Renaud Marlet
+344; AlteredAvatar: Stylizing Dynamic 3D Avatars with Fast Style Adaptation; Thu Nguyen-Phuoc, Gabriel Schwartz, Yuting Ye, Stephen Lombardi, Lei Xiao
+346; Enhancing Feature Matching for RGB-D Images: A Novel Point-Matching Algorithm for Real-Time Robotics Applications; Ankit Gupta, Dibyendu Ghosh, Paras Sharma, Debasish Ghose
+348; BlobGAN-3D: A Spatially-Disentangled 3D-Aware Generative Model for Indoor Scenes; Qian Wang, Yiqun Wang, Michael Birsak, Peter Wonka
+349; Few-Shot Multi-Human Neural Rendering Using Geometry Constraints; Qian Li, Victoria Fernandez Abrevaya, Franck Multon, Adnane Boukhayma
+350; FlowPoint: End-to-End Robust Feature Point Tracking with Optical Flow; Weiguang Chen, jichao jiao
+351; Metric Learning for 3D Point Clouds Using Optimal Transport; Siddharth Katageri, Srinjay Sarkar, Charu Sharma
+352; Neural Rendering of Humans in Novel View and Pose from Monocular Video; Tiantian Wang, Nikolaos Sarafianos, Ming-Hsuan Yang, Tony Tung
+353; Neural Field Regularization by Denoising for 3D Sparse-View X-ray Computed Tomography; Romain Vo, Julie Escoda, Caroline Vienne, Etienne Decencière
+354; Deep Unsupervised Segmentation of Log Point Clouds; Fedor Zolotarev, Tuomas Eerola, Tomi Kauppi
+355; LEAD: Latent Realignment for Human Motion Diffusion; Nefeli Andreou, Xi WANG, Victoria Fernandez Abrevaya, Marie-Paule CANI, Yiorgos Chrysanthou, Vicky Kalogeiton
+356; Mahalanobis k-NN: A Statistical Lens for Robust Point-Cloud Registrations; Tejas Anvekar, Ramesh Ashok Tabib, Uma Mudenagudi
+357; ResNeRF: Geometry-Guided Residual Neural Radiance Field for Indoor Scene Novel View Synthesis; Yuting Xiao
+358; 3DMPE: 3D Multi-Perspective Embedding; Md Rahat uz Zaman, Vahan Huroyan, Stephen Kobourov
+359; ShapeShift: Generating Unseen Shapes From Text Input; Kelly O. Marshall, Minh Pham, Ameya Joshi, Aditya Balu, Anushrut Jignasu, Adarsh Krishnamurthy, Chinmay Hegde
+361; NICER-SLAM: Neural Implicit Scene Encoding for RGB SLAM; Zihan Zhu, Songyou Peng, Viktor Larsson, Zhaopeng Cui, Martin R. Oswald, Andreas Geiger, Marc Pollefeys
+364; ISL<-> ASL Communication Between Hearing Impaired People Knowing Different Sign Languages; Himangshu Sarma
+365; RealDiff: Real-world 3D Shape Completion using Self-Supervised Diffusion Models; Başak Melis Öcal, Maxim Tatarchenko, Sezer Karaoglu, Theo Gevers
+366; Evaluating Deep Clustering Algorithms on Non-Categorical 3D CAD Models; Siyuan Xiang, Chin Tseng, Congcong Wen, Deshana Kaushal Desai, Yifeng Kou, Binil Starly, Daniele Panozzo, Chen Feng
+367; Privacy Preserving Features for Dense Stereo Matching; Dawid Jeczmionek, Fangjinhua Wang, Christoph Vogel, Silvano Galliani, Marc Pollefeys
+368; Out of the Room: Generalizing Event-based Dynamic Motion Segmentation for Complex Scenes; Stamatios Georgoulis, weining ren, Alfredo Bochicchio, Daniel Eckert, YUANYOU LI, Abel Roman Gawel
+369; Multi-task 3D building understanding with multi-modal pretraining; Shicheng Luke Xu
+370; Objects with Lighting: A Real-World Dataset for Evaluating Reconstruction and Rendering for Object Relighting; Benjamin Ummenhofer, Sanskar Agrawal, Rene Sepulveda, Yixing Lao, Kai Zhang, Tianhang Cheng, Stephan R. Richter, Shenlong Wang, German Ros
+371; DynamicSurf: Dynamic Neural RGB-D Surface Reconstruction with an Optimizable Feature Grid; Mirgahney Mohamed, Lourdes Agapito
+372; MinBackProp – Backpropagating through Minimal Solvers; Diana Sungatullina, Tomas Pajdla
+373; A Cross Branch Fusion-based Contrastive Framework for Point Cloud Self-supervised Learning; Chengzhi Wu, Qianliang Huang, kun jin, Julius Pfrommer, Jürgen Beyerer
+374; Low-rank Neural Field Representation with Tensor-Train Decomposition; Anton Obukhov, Mikhail Usvyatsov, Christos Sakaridis, Konrad Schindler, Luc Van Gool
+376; Self-supervised Learning of Neural Implicit Feature Fields for Camera Pose Refinement; Maxime Pietrantoni, Gabriela Csurka, Martin Humenberger, Torsten Sattler
+377; Background Prompting for Improved Object Depth; Manel Baradad, Yuanzhen Li, Forrester Cole, Michael Rubinstein, Antonio Torralba, William T. Freeman, Varun Jampani
+378; Neural Point Cloud Diffusion for Disentangled 3D Shape and Appearance Generation; Philipp Schröppel, Christopher Wewer, Jan Eric Lenssen, Eddy Ilg, Thomas Brox
+379; Populating Photographs with People; Mirela Ostrek, Soubhik Sanyal, Michael J. Black, Justus Thies
+380; Geometry Aware Field-to-field Transformations for 3D Semantic Segmentation; Dominik Hollidt, Clinton Wang, Marc Pollefeys, Polina Golland
+381; Objective vs Subjective Metrics for Quality Assessment of Textured 3D Meshes; Tiago Madeira, Miguel Riem Oliveira, Paulo Dias
+382; VoLMA-Human: Accurate Multi-view 3D Human Pose and Shape Estimation from Volumetric Level-wise Mesh Adjustment; Shukai Fang, Baobei Xu, Zhaoyang Li, Shicai Yang
+383; NeuralDDF: A Neural Directional Distance Function for 3D Object Representation; Jing Chen, HAO ZHU, Michael S. Lewicki
+384; LEIFR-Net: Light Estimation for Implicit Face Relight Network; Zhiru Li, Chenchu Rong, Wang Yuanqing
+385; Spatially-Shaped Correlation Functions for Indirect Time-of-Flight Imaging; Caterina Nahler, Sebastian Handel, Hannes Plank, Armin Josef Schoenlieb, Christian Steger
+386; HybridParse: Towards Robust 3D Human Parsing Using Text and Image Space Features; Keito Suzuki, Kunyao Chen, Bang Du, Truong Nguyen
+388; Modeling Detailed Human Geometry with Adaptive Local Refinement; Bang Du, Kunyao Chen, Haochen Zhang, Fei Yin, Baichuan Wu, Truong Nguyen
+389; An End-to-End Haptic Adjective Recognition Method with Attention Mechanism; Yuanpei Zhang, Zhuojun Zou, Lin Shu, Jie Hao
+390; Distance Calculation For Indirect Time-of-Flight Imagers With Arbitrary Correlations; Caterina Nahler, Sebastian Handel, Hannes Plank, Armin Josef Schoenlieb, Christian Steger
+391; Permutation-Invariant Relational Network for Multi-person 3D Pose Estimation; Nicolás Ugrinovic, Antonio Agudo, Alberto Sanfeliu, Francesc Moreno-Noguer
+392; Underwater SLAM with global optimization of light sectioning method using ROV attached with multiple cross-line lasers and DVL; Takaki Ikeda, Yuki Kihara, Yoshihiro Sato, Takafumi Iwaguchi, Diego Thomas, Hiroshi Kawasaki
+393; Hyper-SNBRDF: Hypernetwork for Neural BRDF using Sinusoidal Activation; Zhiqiang Li, Xunkun Shen, Xueyang Zhou, Yong Hu, Bowen Li
+394; Calibration-free structured-light-based active stereo 3D scanning system based on differentiable renderer; Ryo Furukawa, Ryusuke Sagawa, Hiroshi Kawasaki
+395; FasterVoxelPose+: Fast and Accurate Voxel-based 3D Human Pose Estimation by Depth-wise Projection Decay; Zonghuang Zhuang, Yue Zhou
+396; – Visual Tomography – Physically Faithful Volumetric Models of Partially Translucent Objects; David Nakath, Xiangyu Weng, Mengkun She, Kevin Köser
+397; DyNeRFactor: Temporally Consistent Intrinsic Scene Decomposition for Dynamic NeRFs; Mario Alfonso Arsuaga, Jorge García-González, Miguel A. Alonso, Andrea Castiella, Marcos Barrios Muñoz, Elena Garces
+398; 3D Ship Hull Design Direct Optimization Using Generative Adversarial Network; Luan Thanh Trinh
+399; Teaching 3D-Geometry Through Virtual Reality; Himangshu Sarma
+400; Leveraging Deep Learning and Sensor Fusion for Automatic Traffic Sign 3D Mapping; Matteo Bellusci, Simone Mentasti, Daniele Ligato, Matteo Matteucci
+401; Q-ROBIN: Quantum Outlier Rejection Based on Point Pair Invariants; Lynna Xie, Tolga Birdal
+402; NeRF-GAN Distillation for Efficient 3D-Aware Generation with Convolutions; Mohamad Shahbazi, Evangelos Ntavelis, Alessio Tonioni, Edo Collins, Danda Pani Paudel, Martin Danelljan, Luc Van Gool
+403; Viewpoint Textual Inversion: Unleashing Novel View Synthesis with Your Pretrained 2D Diffusion Model; James Burgess, Kuan-Chieh Wang, Serena Yeung
+405; Multiview Image-Based Localization; Cameron Fiore, Benjamin Kimia, Hongyi Fan
+406; Dynamic Textured Billboards for Ever-Evolving Virtual Worlds; NARUYA KONDO, Ryosuke Hyakuta, So Kuroki, Shixiang Shane Gu, Yutaka Matsuo, Yoichi Ochiai
