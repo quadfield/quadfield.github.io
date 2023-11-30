@@ -32,12 +32,15 @@
     <link rel="stylesheet"
           href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
     <link rel="stylesheet" href="./static/css/index.css">
-    <link rel="icon" href="./static/images/favicon.png">
+    <link rel="icon" href="./static/images/favicon.svg">
   
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script defer src="./static/js/fontawesome.all.min.js"></script>
     <script src="./static/js/bulma-carousel.min.js"></script>
     <script src="./static/js/bulma-slider.min.js"></script>
+    <!-- <link rel="stylesheet" href="./static/css/reset.css"> CSS reset -->
+    <link rel="stylesheet" href="./static/css/style.css"> <!-- Resource style -->
+    <script src="./static/js/modernizr.js"></script> <!-- Modernizr -->
     <script src="./static/js/index.js"></script>
   </head>
 <body>
@@ -240,6 +243,7 @@
     </div>
   </div>
 </section>
+<hr style="height:1px;border:none;color:#f3eded;background-color:#e1d4d400;">
 
 
 <section class="hero is-light is-small">
@@ -276,6 +280,21 @@
   </div>
 </section>
 
+
+<figure class="cd-image-container">
+  <img src="./static/images/neus_hairy_monkey.png" alt="Original Image">
+  <span class="cd-image-label" data-type="original">Surface rendering</span>
+  <div class="cd-resize-img"> <!-- the resizable image on top -->
+     <img src="./static/images/hairy_monkey.png" alt="Modified Image">
+     <span class="cd-image-label" data-type="modified">Ours</span>
+  </div>
+  <span class="cd-handle"></span> <!-- slider handle -->
+</figure> <!-- cd-image-container -->
+<figcaption>Our approach uses multiple quadrature points per ray, which allows it to represent volumetric effects like fur. Purely surface rendering approach fails at this task.</figcaption>
+
+<script src="./static/js/jquery-2.1.1.js"></script>
+<script src="./static/js/jquery.mobile.custom.min.js"></script> <!-- Resource jQuery -->
+<script src="./static/js/main.js"></script> <!-- Resource jQuery -->
 
 
 <section class="section" id="BibTeX">
