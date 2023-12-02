@@ -169,7 +169,7 @@
     </figure>
     <div class="container is-max-desktop">
       <figure>
-        <figcaption>The core of our approach consists of learning a quadrature field that produces more quadrature points in regions where volumetric weights are higher. Specifically, zero crossings of our quadrature field defines the quadrature points. The relative number of zero crossings can be controlled by the frequency term omega as shown above.</figcaption>
+        <figcaption>The core of our approach consists of learning a quadrature field F(x), the zero-crossings of which gives us quadrature points deterministically. We train this field such that the field gives more quadrature points in regions where volumetric weights are higher. The relative number of zero crossings can be controlled by the frequency term omega as shown above.</figcaption>
       </figure>
     </div>
   </div>
@@ -178,7 +178,7 @@
   <div class="container is-max-desktop">
     <figure>
       <img src="./static/images/pipeline.svg" alt="teaser" height="600"> 
-      <figcaption> We start with a pre-trained network to train a quadrature field that learns the placement of quadrature points.
+      <figcaption> In short, We start with a pre-trained network to train a quadrature field that learns the placement of quadrature points.
         The extracted mesh from the quadrature field is fine-tuned using a deformation field (deformation is shown using red colour on the deformed mesh). 
         Lastly, the neural features are baked into a texture map and the mesh, which can be rendered 
         with WebGL.</figcaption>
