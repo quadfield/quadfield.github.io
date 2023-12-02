@@ -130,8 +130,7 @@
   <img src="./static/images/teaser.svg" alt="teaser" height="300">
 </div>
 <h2 class="subtitle has-text-centered">
-<p> <b>TL;DR: Our approach generates a mesh using a quadrature field. We associate texture with</b></p>
- <p> <b> the mesh and render the mesh using depth peeling, which can produce volumetric effects such as fur.</b></p>
+<p class="pos_fixed"> <b>TL;DR: Our approach generates a mesh using a quadrature field. We associate texture with the mesh and render the mesh using depth peeling, which can produce volumetric effects such as fur.</b></p>
 </h2>
 </div>
 
@@ -168,12 +167,12 @@
       <img src="./static/images/field.gif" alt="teaser" height="30%" width="30%"> 
     </figure>
     <div class="container is-max-desktop">
-      <figure>
-        <figcaption>The core of our approach consists of learning a quadrature field F(x), the zero-crossings of which gives us quadrature points deterministically. We train this field such that the field gives more quadrature points in regions where volumetric weights are higher. The relative number of zero crossings can be controlled by the frequency term omega as shown above.</figcaption>
-      </figure>
+      <!-- <figure> -->
+        <p class="pos_fixed">The core of our approach consists of learning a quadrature field F(x), the zero-crossings of which gives us quadrature points deterministically. We train this field such that the field gives more quadrature points in regions where volumetric weights are higher. The relative number of zero crossings can be controlled by the frequency term omega as shown above.</p>
+      <!-- </figure> -->
     </div>
   </div>
-  <p style="margin-bottom:1cm;"></p>
+  <p style="margin-bottom:20px;"></p>
 
   <div class="container is-max-desktop">
     <figure>
@@ -255,7 +254,7 @@
           </video>
         </div>
       </div>
-      <p style="margin-top: 10px;"><b>Visualization of reconstructed nerf-synthetic scenes and our fur dataset.</b></p>
+      <p class="pos_fixed" style="margin-top: 10px;"><b>Visualization of reconstructed nerf-synthetic scenes and our fur dataset.</b></p>
     </div>
   </div>
 </section>
@@ -291,7 +290,7 @@
           </video>
         </div>
       </div>
-      <p style="margin-top: 10px;"><b>Visualization of reconstructed real 360 scenes.</b></p>
+      <p class="pos_fixed" style="margin-top: 10px;"><b>Visualization of reconstructed real 360 scenes.</b></p>
     </div>
   </div>
 </section>
@@ -309,13 +308,23 @@
   </div>
   <span class="cd-handle"></span> <!-- slider handle -->
 </figure> <!-- cd-image-container -->
-<p>Our approach uses multiple quadrature points per ray, which allows it to represent volumetric effects like fur. Purely surface rendering approach fails at this task.</p>
+<p class="pos_fixed"><b>Our approach uses multiple quadrature points per ray, which allows it to represent volumetric effects like fur. Purely surface rendering approach fails at this task.</b></p>
   </div>
 </section>
 
 <script src="./static/js/jquery-2.1.1.js"></script>
 <script src="./static/js/jquery.mobile.custom.min.js"></script> <!-- Resource jQuery -->
 <script src="./static/js/main.js"></script> <!-- Resource jQuery -->
+
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+<figure class="cd-image-container">
+  <img src="./static/images/comparison-with-mobile-nerf.svg" alt="Original Image">
+</figure> <!-- cd-image-container -->
+<p class="pos_fixed"><b>Our approach can represent transparency better than surface based baking approaches like MobileNeRF.</b></p>
+  </div>
+</section>
 
 
 <section class="section" id="BibTeX">
