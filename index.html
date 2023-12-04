@@ -38,6 +38,10 @@
     <script defer src="./static/js/fontawesome.all.min.js"></script>
     <script src="./static/js/bulma-carousel.min.js"></script>
     <script src="./static/js/bulma-slider.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async
+            src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
     <!-- <link rel="stylesheet" href="./static/css/reset.css"> CSS reset -->
     <link rel="stylesheet" href="./static/css/style.css"> <!-- Resource style -->
     <script src="./static/js/modernizr.js"></script> <!-- Modernizr -->
@@ -168,7 +172,7 @@
     </figure>
     <div class="container is-max-desktop">
       <!-- <figure> -->
-        <p class="pos_fixed">The core of our approach consists of learning a quadrature field F(x), the zero-crossings of which gives us quadrature points deterministically. We train this field such that the field gives more quadrature points in regions where volumetric weights are higher. The relative number of zero crossings can be controlled by the frequency term omega as shown above.</p>
+        <p class="pos_fixed">The core of our approach consists of learning a quadrature field \(\sin (\omega \mathcal{F}(x)\), the zero-crossings of which gives us quadrature points deterministically. We train this field such that the field gives more quadrature points in regions where volumetric weights are higher. The relative number of zero crossings can be controlled by the frequency term omega as shown above.</p>
       <!-- </figure> -->
     </div>
   </div>
