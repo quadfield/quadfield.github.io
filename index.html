@@ -129,10 +129,9 @@
 
 <div class="container is-max-desktop">
 <div style="display: flex; justify-content: center; align-items: center; height: 60vh;">
-  <!-- <video width="300" height="300" controls autolpay>
-      <source src="./videos/hairy_monkey.mp4" type="video/mp4">
-  </video> -->
-  <img src="./static/images/teaser.svg" alt="teaser" height="300">
+  <video height="900" controls autoplay muted>
+      <source src="./videos/khady.mp4" type="video/mp4">
+  </video>
 </div>
 <h2 class="subtitle has-text-centered">
 <p class="pos_fixed"> <b>TL;DR: Our approach generates a mesh using a quadrature field. We associate texture with the mesh and render the mesh using depth peeling, which can produce volumetric effects such as fur.</b></p>
@@ -147,13 +146,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-            We propose a novel Neural Radiance Field (NeRF) representation for non-opaque scenes that allows fast inference by utilizing textured polygons.
-            Despite the high-quality novel view rendering that NeRF provides, a critical limitation is that it relies on volume rendering that can be computationally expensive and does not utilize the advancements in modern graphics hardware.
-            Existing methods for this problem fall short when it comes to modelling volumetric effects as they rely purely on surface rendering.
-            We thus propose to model the scene with polygons, which can then be used to obtain the quadrature points required to model volumetric effects, and also their opacity and colour from the texture.
-            To obtain such polygonal mesh, we train a specialized field whose zero-crossings would correspond to the quadrature points when volume rendering, and perform marching cubes on this field.
-            We then rasterize the polygons and utilize the fragment shaders to obtain the final colour image.
-            Our method allows rendering on various devices and easy integration with existing graphics frameworks while keeping the benefits of volume rendering alive.
+            We propose a novel Neural Radiance Field (NeRF) representation for non-opaque scenes that enables fast inference by utilizing textured polygons. Despite the high-quality novel view rendering that NeRF provides, a critical limitation is that it relies on volume rendering that can be computationally expensive and does not utilize the advancements in modern graphics hardware. Many existing methods fall short when it comes to modelling volumetric effects as they rely purely on surface rendering. We thus propose to model the scene with polygons, which can then be used to obtain the quadrature points required to model volumetric effects, and also their opacity and colour from the texture. To obtain such polygonal mesh, we train a specialized field whose zero-crossings would correspond to the quadrature points when volume rendering, and perform marching cubes on this field. We then perform ray-tracing and utilize the ray-tracing shader to obtain the final colour image. Our method allows an easy integration with existing graphics frameworks allowing rendering speed of over 100 frames-per-second for a 1920×1080 image, while still being able to represent non-opaque objects.
           </p>
         </div>
       </div>
@@ -167,26 +160,32 @@
 
 <section class="section">
   <div class="content has-text-justified">
+    <div class="container is-max-desktop">
+      <figure>
+        <img src="./static/images/teaser.svg" alt="teaser" height="1200"> 
+      </figure>
+    </div>
+
+    <div class="container is-max-desktop">
+      <figure>
+        <img src="./static/images/pipeline.svg" alt="teaser" height="1200"> 
+        <figcaption> In short, We start with a pre-trained network to train a quadrature field that learns the placement of quadrature points.
+          The extracted mesh from the quadrature field is fine-tuned using a deformation field (deformation is shown using red colour on the deformed mesh). 
+          Lastly, the neural features are baked into a texture map and the mesh, which can be rendered 
+          with WebGL.</figcaption>
+      </figure>
+    </div>
+
+    <p style="margin-bottom:20px;"></p>
 
     <figure>
-      <img src="./static/images/field.gif" alt="teaser" height="30%" width="30%"> 
+      <img src="./static/images/field.gif" alt="teaser" height="20%" width="20%"> 
     </figure>
     <div class="container is-max-desktop">
       <!-- <figure> -->
         <p class="pos_fixed">The core of our approach consists of learning a quadrature field \(\sin (\omega \mathcal{F}(x)\), the zero-crossings of which gives us quadrature points deterministically. We train this field such that the field gives more quadrature points in regions where volumetric weights are higher. The relative number of zero crossings can be controlled by the frequency term omega as shown above.</p>
       <!-- </figure> -->
     </div>
-  </div>
-  <p style="margin-bottom:20px;"></p>
-
-  <div class="container is-max-desktop">
-    <figure>
-      <img src="./static/images/pipeline.svg" alt="teaser" height="600"> 
-      <figcaption> In short, We start with a pre-trained network to train a quadrature field that learns the placement of quadrature points.
-        The extracted mesh from the quadrature field is fine-tuned using a deformation field (deformation is shown using red colour on the deformed mesh). 
-        Lastly, the neural features are baked into a texture map and the mesh, which can be rendered 
-        with WebGL.</figcaption>
-    </figure>
   </div>
 
 <hr style="height:1px;border:none;color:#333;background-color:#333;">
@@ -198,15 +197,45 @@
   <div class="hero-body">
     <div class="container">
       <div id="results-carousel" class="carousel results-carousel">
-        <div class="item item-steve">
+        <div class="item item-chair-tp">
           <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./videos/chair.mp4"
+            <source src="./videos/fernvase.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-shiba">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="./videos/kitten.mp4"
                     type="video/mp4">
           </video>
         </div>
         <div class="item item-steve">
           <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./videos/hairy_monkey.mp4"
+            <source src="./videos/horse.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+        <div class="item item-fullbody">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="./videos/pug.mp4"
+                    type="video/mp4">
+          </video>
+        </div>
+      </div>
+      <p class="pos_fixed" style="margin-top: 10px;"><b>Visualization of reconstructed nerf-synthetic dataset.</b></p>
+    </div>
+  </div>
+</section>
+<hr style="height:1px;border:none;color:#f3eded;background-color:#e1d4d400;">
+
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+    <div class="container">
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item item-steve">
+          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
+            <source src="./videos/chair.mp4"
                     type="video/mp4">
           </video>
         </div>
@@ -219,12 +248,6 @@
         <div class="item item-shiba">
           <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
             <source src="./videos/ficus.mp4"
-                    type="video/mp4">
-          </video>
-        </div>
-        <div class="item item-steve">
-          <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./videos/smokey_monkey.mp4"
                     type="video/mp4">
           </video>
         </div>
@@ -284,13 +307,13 @@
         </div>
         <div class="item item-shiba">
           <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./videos/labdog.mp4"
+            <source src="./videos/bonsai.mp4"
                     type="video/mp4">
           </video>
         </div>
         <div class="item item-fullbody">
           <video poster="" id="steve" autoplay controls muted loop playsinline height="100%">
-            <source src="./videos/kitchen.mp4"
+            <source src="./videos/bicycle.mp4"
                     type="video/mp4">
           </video>
         </div>
@@ -302,32 +325,39 @@
 
 <hr style="height:1px;border:none;color:#f3eded;background-color:#e1d4d400;">
 
-<section class="hero is-light is-small">
-  <div class="hero-body">
-<figure class="cd-image-container">
-  <img src="./static/images/neus_hairy_monkey.jpg" alt="Original Image">
-  <span class="cd-image-label" data-type="original"></span>
-  <div class="cd-resize-img"> <!-- the resizable image on top -->
-     <img src="./static/images/hairy_monkey.jpg" alt="Modified Image">
-     <span class="cd-image-label" data-type="modified"></span>
-  </div>
-  <span class="cd-handle"></span> <!-- slider handle -->
-</figure> <!-- cd-image-container -->
-<p class="pos_fixed"><b>Our approach uses multiple quadrature points per ray, which allows it to represent volumetric effects like fur. Purely surface rendering approach fails at this task.</b></p>
-  </div>
-</section>
 
 <script src="./static/js/jquery-2.1.1.js"></script>
 <script src="./static/js/jquery.mobile.custom.min.js"></script> <!-- Resource jQuery -->
 <script src="./static/js/main.js"></script> <!-- Resource jQuery -->
 
 
+
 <section class="hero is-light is-small">
   <div class="hero-body">
 <figure class="cd-image-container">
-  <img src="./static/images/comparison-with-mobile-nerf.svg" alt="Original Image">
+  <img src="./static/images/shelly.svg" alt="Original Image">
+</figure> <!-- cd-image-container -->
+<p class="pos_fixed"><b>Our approach can represent hair like material better than the baselines.</b></p>
+  </div>
+</section>
+
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+<figure class="cd-image-container">
+  <img src="./static/images/transparency-comparison-with-mobilenerf.svg" alt="Original Image">
 </figure> <!-- cd-image-container -->
 <p class="pos_fixed"><b>Our approach can represent transparency better than surface based baking approaches like MobileNeRF.</b></p>
+  </div>
+</section>
+
+
+<section class="hero is-light is-small">
+  <div class="hero-body">
+<figure class="cd-image-container">
+  <img src="./static/images/comparison-with-bakedsdf.svg" alt="Original Image">
+</figure> <!-- cd-image-container -->
+<p class="pos_fixed"><b>Our approach can represent transparency better than surface based baking approaches like BakedSDF.</b></p>
   </div>
 </section>
 
