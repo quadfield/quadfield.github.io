@@ -160,12 +160,18 @@
 
 <section class="section">
   <div class="content has-text-justified">
-    <div class="container is-max-desktop">
+    <!-- <div class="container is-max-desktop">
       <figure>
         <img src="./static/images/teaser.svg" alt="teaser" height="1200"> 
       </figure>
+    </div> -->
+    <div class="container is-max-desktop">
+      <div style="display: flex; justify-content: center; align-items: center; height: 60vh;">
+        <video height="900" controls autoplay loop muted>
+            <source src="./videos/teaser.mp4" type="video/mp4">
+        </video>
+      </div>
     </div>
-
     <div class="container is-max-desktop">
       <figure>
         <img src="./static/images/pipeline.svg" alt="teaser" height="1200"> 
@@ -178,9 +184,9 @@
 
     <p style="margin-bottom:20px;"></p>
 
-    <figure>
+    <!-- <figure>
       <img src="./static/images/field.gif" alt="teaser" height="20%" width="20%"> 
-    </figure>
+    </figure> -->
     <div class="container is-max-desktop">
       <!-- <figure> -->
         <p class="pos_fixed">The core of our approach consists of learning a quadrature field \(\sin (\omega \mathcal{F}(x)\), the zero-crossings of which gives us quadrature points deterministically. We train this field such that the field gives more quadrature points in regions where volumetric weights are higher. The relative number of zero crossings can be controlled by the frequency term omega as shown above.</p>
